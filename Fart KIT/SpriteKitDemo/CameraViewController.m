@@ -77,7 +77,7 @@
 
 - (void)setupAnimations {
 	
-	self.currentFartIndex = 0;
+	self.currentFartIndex = 1;
 	
 	self.texturesLeft = [NSMutableArray array];
 	self.texturesRight = [NSMutableArray array];
@@ -121,7 +121,7 @@
 	// 2 lazer
 	
 	textureArrayRight = [NSMutableArray array];
-	numImagesRight = 60;
+	numImagesRight = 35;
 	for (int i=0; i <= (numImagesRight-1); i++) {
 		NSString *textureName;
 		if(i>=0 && i<10){
@@ -134,7 +134,7 @@
 	[self.texturesRight addObject:textureArrayRight];
 	
 	textureArrayLeft = [NSMutableArray array];
-	numImagesLeft = 60;
+	numImagesLeft = 35;
 	for (int i=0; i <= (numImagesLeft-1); i++) {
 		NSString *textureName;
 		if(i>=0 && i<10){
@@ -146,6 +146,8 @@
 	}
 
 	[self.texturesLeft addObject:textureArrayLeft];
+	
+	// 3 squeaker
 	
 }
 
