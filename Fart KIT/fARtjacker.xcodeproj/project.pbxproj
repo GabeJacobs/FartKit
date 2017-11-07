@@ -24,6 +24,8 @@
 		2378AB7B1FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB701FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf */; };
 		2378AB7C1FA64EEF00FCCA44 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB711FA64EEF00FCCA44 /* Rubik-Regular.ttf */; };
 		2378AB7D1FA64EEF00FCCA44 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB721FA64EEF00FCCA44 /* SIL Open Font License.txt */; };
+		2393405F1FB26B6A00F8C5E2 /* laserL.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2393405D1FB26B6900F8C5E2 /* laserL.atlas */; };
+		239340611FB26BCC00F8C5E2 /* laserR.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2393405E1FB26B6A00F8C5E2 /* laserR.atlas */; };
 		23D793741FA3E38700A52659 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793731FA3E38700A52659 /* TutorialViewController.m */; };
 		23D793911FA3EC5600A52659 /* MainMenuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793901FA3EC5600A52659 /* MainMenuNavigationController.m */; };
 		23D793941FA3EC6C00A52659 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793931FA3EC6C00A52659 /* MainMenuViewController.m */; };
@@ -56,6 +58,8 @@
 		2378AB701FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
 		2378AB711FA64EEF00FCCA44 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		2378AB721FA64EEF00FCCA44 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		2393405D1FB26B6900F8C5E2 /* laserL.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = laserL.atlas; sourceTree = "<group>"; };
+		2393405E1FB26B6A00F8C5E2 /* laserR.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = laserR.atlas; sourceTree = "<group>"; };
 		23D793721FA3E38700A52659 /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
 		23D793731FA3E38700A52659 /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
 		23D7938F1FA3EC5600A52659 /* MainMenuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuNavigationController.h; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 		23F7AA051F79A7C300A7BB8D /* SpriteKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2393405D1FB26B6900F8C5E2 /* laserL.atlas */,
+				2393405E1FB26B6A00F8C5E2 /* laserR.atlas */,
 				23480F111F9FB6F50065EB86 /* Smoke2.atlas */,
 				23480F0F1F9FB0A60065EB86 /* Smoke.atlas */,
 				23F7AA061F79A7C300A7BB8D /* AppDelegate.h */,
@@ -244,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239340611FB26BCC00F8C5E2 /* laserR.atlas in Resources */,
 				23F7AA0A1F79A7C300A7BB8D /* Scene.sks in Resources */,
 				23480F121F9FB6F50065EB86 /* Smoke2.atlas in Resources */,
 				2378AB741FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf in Resources */,
@@ -258,6 +265,7 @@
 				2378AB7A1FA64EEF00FCCA44 /* Rubik-Medium.ttf in Resources */,
 				2378AB791FA64EEF00FCCA44 /* Rubik-LightItalic.ttf in Resources */,
 				2378AB771FA64EEF00FCCA44 /* Rubik-Italic.ttf in Resources */,
+				2393405F1FB26B6A00F8C5E2 /* laserL.atlas in Resources */,
 				2378AB7C1FA64EEF00FCCA44 /* Rubik-Regular.ttf in Resources */,
 				23480F0E1F9F8F730065EB86 /* Fart.mp3 in Resources */,
 				23F7AA131F79A7C300A7BB8D /* Main.storyboard in Resources */,

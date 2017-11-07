@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	self.currentFartIndex = 0;
+	
 	self.sceneView = [[ARSKView alloc] initWithFrame:self.view.frame];
 	[self.view addSubview:self.sceneView];
 	
@@ -43,37 +45,7 @@
 	[self.record addTarget:self action:@selector(tappedRecord) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:self.record];
 	
-	self.textureArrayRight = [NSMutableArray array];
-	Scene *currentScene = (Scene *)self.sceneView.scene;
-	self.textureAtlasRight = [SKTextureAtlas atlasNamed:@"Smoke"];
-	int numImagesRight = self.textureAtlasRight.textureNames.count;
-	for (int i=0; i <= (numImagesRight-1); i++) {
-		NSString *textureName;
-		if(i>=0 && i<10){
-			textureName = [NSString stringWithFormat:@"Smoke0%d", i];
-		} else if(i>=10 && i<100){
-			textureName = [NSString stringWithFormat:@"Smoke%d", i];
-		}
-		[self.textureArrayRight addObject:[SKTexture textureWithImageNamed:textureName]];
-	}
-	
-	self.videoNodeRight = [[SKSpriteNode alloc] initWithImageNamed:self.textureAtlasRight.textureNames[0]];
-	self.videoNodeRight.size = CGSizeMake(self.videoNodeRight.size.width*1.4, self.videoNodeRight.size.height*1.4);
-
-	self.textureArrayLeft = [NSMutableArray array];
-	self.textureAtlasLeft = [SKTextureAtlas atlasNamed:@"Smoke2"];
-	int numImagesLeft = self.textureAtlasLeft.textureNames.count;
-	for (int i=0; i <= (numImagesLeft-1); i++) {
-		NSString *textureName;
-		if(i>=0 && i<10){
-			textureName = [NSString stringWithFormat:@"Smoke20%d", i];
-		} else if(i>=10 && i<100){
-			textureName = [NSString stringWithFormat:@"Smoke2%d", i];
-		}
-		[self.textureArrayLeft addObject:[SKTexture textureWithImageNamed:textureName]];
-	}
-	self.videoNodeLeft = [[SKSpriteNode alloc] initWithImageNamed:self.textureAtlasLeft.textureNames[0]];
-	self.videoNodeLeft.size = CGSizeMake(self.videoNodeLeft.size.width*1.4, self.videoNodeLeft.size.height*1.4);
+	[self setupAnimations];
 	
 	self.screenRecorder = [RPScreenRecorder sharedRecorder];
 	self.screenRecorder.delegate = self;
@@ -101,6 +73,80 @@
 	[self.bannerView loadRequest:[GADRequest request]];
 	self.bannerWindow.hidden = YES;
 
+}
+
+- (void)setupAnimations {
+	
+	self.currentFartIndex = 0;
+	
+	self.texturesLeft = [NSMutableArray array];
+	self.texturesRight = [NSMutableArray array];
+	
+	// 1 normal
+	
+	NSMutableArray *textureArrayRight = [NSMutableArray array];
+	SKTextureAtlas *textureAtlasRight = [SKTextureAtlas atlasNamed:@"Smoke2"];
+	int numImagesRight = textureAtlasRight.textureNames.count;
+	for (int i=0; i <= (numImagesRight-1); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"Smoke20%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"Smoke2%d", i];
+		}
+		[textureArrayRight addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+	[self.texturesRight addObject:textureArrayRight];
+	
+	self.videoNodeRight = [[SKSpriteNode alloc] initWithImageNamed:textureAtlasRight.textureNames[0]];
+	self.videoNodeRight.size = CGSizeMake(self.videoNodeRight.size.width*1.4, self.videoNodeRight.size.height*1.4);
+	
+	NSMutableArray *textureArrayLeft = [NSMutableArray array];
+	SKTextureAtlas *textureAtlasLeft = [SKTextureAtlas atlasNamed:@"Smoke"];
+	int numImagesLeft = textureAtlasLeft.textureNames.count;
+	for (int i=0; i <= (numImagesLeft-1); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"Smoke0%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"Smoke%d", i];
+		}
+		[textureArrayLeft addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+	self.videoNodeLeft = [[SKSpriteNode alloc] initWithImageNamed:textureAtlasLeft.textureNames[0]];
+	self.videoNodeLeft.size = CGSizeMake(self.videoNodeLeft.size.width*1.4, self.videoNodeLeft.size.height*1.4);
+	
+	[self.texturesLeft addObject:textureArrayLeft];
+
+	// 2 lazer
+	
+	textureArrayRight = [NSMutableArray array];
+	numImagesRight = 60;
+	for (int i=0; i <= (numImagesRight-1); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"laserR_0000%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"laserR_000%d", i];
+		}
+		[textureArrayRight addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+	[self.texturesRight addObject:textureArrayRight];
+	
+	textureArrayLeft = [NSMutableArray array];
+	numImagesLeft = 60;
+	for (int i=0; i <= (numImagesLeft-1); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"laserL_0000%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"laserL_000%d", i];
+		}
+		[textureArrayLeft addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+
+	[self.texturesLeft addObject:textureArrayLeft];
+	
 }
 
 - (void)startJacker {
@@ -212,15 +258,14 @@
 
 	Scene *currentScene = (Scene *)self.sceneView.scene;
 	if(!currentScene.swipedRight){
-		SKAction *animation = [SKAction animateWithTextures:self.textureArrayRight timePerFrame:(1.0/24.0)];
+		SKAction *animation = [SKAction animateWithTextures:self.texturesLeft[self.currentFartIndex] timePerFrame:(1.0/24.0)];
 		[self.videoNodeRight runAction:animation completion:^{
 
 		}];
 		return self.videoNodeRight;
-
 	}
 
-	SKAction *animation = [SKAction animateWithTextures:self.textureArrayLeft timePerFrame:(1.0/24.0)];
+	SKAction *animation = [SKAction animateWithTextures:self.texturesRight[self.currentFartIndex] timePerFrame:(1.0/24.0)];
 	[self.videoNodeLeft runAction:animation completion:^{
 
 	}];

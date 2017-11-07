@@ -12,6 +12,7 @@
 
 @interface Scene : SKScene <AVAudioPlayerDelegate>
 
+@property (nonatomic) int currentFartIndex;
 @property (strong, nonatomic) NSMutableArray *anchors;
 @property (nonatomic) BOOL touchedOnce;
 @property (nonatomic, strong) AVAudioPlayer *player;

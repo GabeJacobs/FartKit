@@ -47,7 +47,7 @@
 	CGFloat relativeX = ratioX*3;
 
     relativeY = relativeY - 3;
-	relativeX = relativeX - 1.5;
+	relativeX = relativeX - 2;
 
 	if(abs(endPosition.x - self.startPosition.x) < 10){
 		return;
@@ -90,7 +90,7 @@
 		CGFloat relativeX = ratioX*3;
 		
 		relativeY = relativeY - 3;
-		relativeX = relativeX - 1.5;
+		relativeX = relativeX - 1;
 		ARSKView *sceneView = (ARSKView *)self.view;
 		ARFrame *currentFrame = [sceneView.session currentFrame];
 		

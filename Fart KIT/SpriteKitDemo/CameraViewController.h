@@ -25,18 +25,18 @@
 - (void)hidePlanes;
 - (void)refresh;
 
+@property (nonatomic) int currentFartIndex;
+
+@property (nonatomic, strong) NSMutableArray *texturesRight;
+@property (nonatomic, strong) NSMutableArray *texturesLeft;
 @property (nonatomic, retain) NSMutableDictionary<NSUUID *, Plane *> *planes;
 @property (nonatomic) ARTrackingState currentTrackingState;
 @property (nonatomic, retain) ARWorldTrackingConfiguration *arConfig;
 @property (nonatomic) BOOL touchedOnce;
 @property (nonatomic, strong) SKSpriteNode *videoNodeRight;
-@property (nonatomic, strong) NSMutableArray *textureArrayRight;
 @property (nonatomic, strong) SKSpriteNode *videoNodeLeft;
-@property (nonatomic, strong) NSMutableArray *textureArrayLeft;
 @property (nonatomic, strong) UILabel *directions;
 @property (nonatomic, strong) UIButton *record;
-@property (nonatomic, strong) SKTextureAtlas *textureAtlasRight;
-@property (nonatomic, strong) SKTextureAtlas *textureAtlasLeft;
 @property (nonatomic, strong) UIImageView *icon;
 @property (nonatomic, strong) ARSKView *sceneView;
 @property (nonatomic) BOOL initialized;
