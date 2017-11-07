@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003EEF5A4DF13A14656599DF /* libPods-SpriteKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9119F4F6D9E07F058F67760F /* libPods-SpriteKitDemo.a */; };
+		232D1FB11FB111FB000FB63D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D1FB01FB111FA000FB63D /* GoogleMobileAds.framework */; };
+		23480F0E1F9F8F730065EB86 /* Fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23480F0D1F9F8F730065EB86 /* Fart.mp3 */; };
+		23480F101F9FB0A60065EB86 /* Smoke.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 23480F0F1F9FB0A60065EB86 /* Smoke.atlas */; };
+		23480F121F9FB6F50065EB86 /* Smoke2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 23480F111F9FB6F50065EB86 /* Smoke2.atlas */; };
+		2362B96C1FA7748900DE3A70 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362B96B1FA7748900DE3A70 /* FileUtils.m */; };
+		2378AB731FA64EEF00FCCA44 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB681FA64EEF00FCCA44 /* Rubik-Black.ttf */; };
+		2378AB741FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB691FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf */; };
+		2378AB751FA64EEF00FCCA44 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6A1FA64EEF00FCCA44 /* Rubik-Bold.ttf */; };
+		2378AB761FA64EEF00FCCA44 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6B1FA64EEF00FCCA44 /* Rubik-BoldItalic.ttf */; };
+		2378AB771FA64EEF00FCCA44 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6C1FA64EEF00FCCA44 /* Rubik-Italic.ttf */; };
+		2378AB781FA64EEF00FCCA44 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6D1FA64EEF00FCCA44 /* Rubik-Light.ttf */; };
+		2378AB791FA64EEF00FCCA44 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6E1FA64EEF00FCCA44 /* Rubik-LightItalic.ttf */; };
+		2378AB7A1FA64EEF00FCCA44 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB6F1FA64EEF00FCCA44 /* Rubik-Medium.ttf */; };
+		2378AB7B1FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB701FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf */; };
+		2378AB7C1FA64EEF00FCCA44 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB711FA64EEF00FCCA44 /* Rubik-Regular.ttf */; };
+		2378AB7D1FA64EEF00FCCA44 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2378AB721FA64EEF00FCCA44 /* SIL Open Font License.txt */; };
+		23D793741FA3E38700A52659 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793731FA3E38700A52659 /* TutorialViewController.m */; };
+		23D793911FA3EC5600A52659 /* MainMenuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793901FA3EC5600A52659 /* MainMenuNavigationController.m */; };
+		23D793941FA3EC6C00A52659 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D793931FA3EC6C00A52659 /* MainMenuViewController.m */; };
+		23EC4DDD1F7ACFF700B99029 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EC4DDC1F7ACFF700B99029 /* Config.m */; };
+		23F7AA081F79A7C300A7BB8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7AA071F79A7C300A7BB8D /* AppDelegate.m */; };
+		23F7AA0A1F79A7C300A7BB8D /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23F7AA091F79A7C300A7BB8D /* Scene.sks */; };
+		23F7AA0D1F79A7C300A7BB8D /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7AA0C1F79A7C300A7BB8D /* Scene.m */; };
+		23F7AA101F79A7C300A7BB8D /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7AA0F1F79A7C300A7BB8D /* CameraViewController.m */; };
+		23F7AA131F79A7C300A7BB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F7AA111F79A7C300A7BB8D /* Main.storyboard */; };
+		23F7AA151F79A7C300A7BB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7AA141F79A7C300A7BB8D /* Assets.xcassets */; };
+		23F7AA181F79A7C300A7BB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F7AA161F79A7C300A7BB8D /* LaunchScreen.storyboard */; };
+		23F7AA1B1F79A7C300A7BB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7AA1A1F79A7C300A7BB8D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		232D1FB01FB111FA000FB63D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.25.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		23480F0D1F9F8F730065EB86 /* Fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fart.mp3; sourceTree = "<group>"; };
+		23480F0F1F9FB0A60065EB86 /* Smoke.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Smoke.atlas; sourceTree = "<group>"; };
+		23480F111F9FB6F50065EB86 /* Smoke2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Smoke2.atlas; sourceTree = "<group>"; };
+		2362B96A1FA7748900DE3A70 /* FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		2362B96B1FA7748900DE3A70 /* FileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		2378AB681FA64EEF00FCCA44 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		2378AB691FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2378AB6A1FA64EEF00FCCA44 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		2378AB6B1FA64EEF00FCCA44 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2378AB6C1FA64EEF00FCCA44 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		2378AB6D1FA64EEF00FCCA44 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		2378AB6E1FA64EEF00FCCA44 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		2378AB6F1FA64EEF00FCCA44 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		2378AB701FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2378AB711FA64EEF00FCCA44 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		2378AB721FA64EEF00FCCA44 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		23D793721FA3E38700A52659 /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		23D793731FA3E38700A52659 /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		23D7938F1FA3EC5600A52659 /* MainMenuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuNavigationController.h; sourceTree = "<group>"; };
+		23D793901FA3EC5600A52659 /* MainMenuNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuNavigationController.m; sourceTree = "<group>"; };
+		23D793921FA3EC6C00A52659 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = "/Users/gabejacobs/Desktop/FartKit/Fart KIT/SpriteKitDemo/MainMenuViewController.h"; sourceTree = "<absolute>"; };
+		23D793931FA3EC6C00A52659 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = "/Users/gabejacobs/Desktop/FartKit/Fart KIT/SpriteKitDemo/MainMenuViewController.m"; sourceTree = "<absolute>"; };
+		23EC4DDB1F7ACFF700B99029 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		23EC4DDC1F7ACFF700B99029 /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		23F7AA031F79A7C300A7BB8D /* fARtJacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fARtJacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7AA061F79A7C300A7BB8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23F7AA071F79A7C300A7BB8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23F7AA091F79A7C300A7BB8D /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		23F7AA0B1F79A7C300A7BB8D /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		23F7AA0C1F79A7C300A7BB8D /* Scene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		23F7AA0E1F79A7C300A7BB8D /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		23F7AA0F1F79A7C300A7BB8D /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		23F7AA121F79A7C300A7BB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23F7AA141F79A7C300A7BB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F7AA171F79A7C300A7BB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23F7AA191F79A7C300A7BB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F7AA1A1F79A7C300A7BB8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0894714586B53E8A068C83 /* Pods-SpriteKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpriteKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpriteKitDemo/Pods-SpriteKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9119F4F6D9E07F058F67760F /* libPods-SpriteKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpriteKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAED9706A1E4D9D201427FFA /* Pods-SpriteKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpriteKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpriteKitDemo/Pods-SpriteKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F7AA001F79A7C300A7BB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232D1FB11FB111FB000FB63D /* GoogleMobileAds.framework in Frameworks */,
+				003EEF5A4DF13A14656599DF /* libPods-SpriteKitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2312C7441F8FEA5B008DFC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232D1FB01FB111FA000FB63D /* GoogleMobileAds.framework */,
+				9119F4F6D9E07F058F67760F /* libPods-SpriteKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2378AB671FA64EEF00FCCA44 /* rubik */ = {
+			isa = PBXGroup;
+			children = (
+				2378AB681FA64EEF00FCCA44 /* Rubik-Black.ttf */,
+				2378AB691FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf */,
+				2378AB6A1FA64EEF00FCCA44 /* Rubik-Bold.ttf */,
+				2378AB6B1FA64EEF00FCCA44 /* Rubik-BoldItalic.ttf */,
+				2378AB6C1FA64EEF00FCCA44 /* Rubik-Italic.ttf */,
+				2378AB6D1FA64EEF00FCCA44 /* Rubik-Light.ttf */,
+				2378AB6E1FA64EEF00FCCA44 /* Rubik-LightItalic.ttf */,
+				2378AB6F1FA64EEF00FCCA44 /* Rubik-Medium.ttf */,
+				2378AB701FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf */,
+				2378AB711FA64EEF00FCCA44 /* Rubik-Regular.ttf */,
+				2378AB721FA64EEF00FCCA44 /* SIL Open Font License.txt */,
+			);
+			name = rubik;
+			path = fARtjacker/rubik;
+			sourceTree = SOURCE_ROOT;
+		};
+		23F7A9FA1F79A7C300A7BB8D = {
+			isa = PBXGroup;
+			children = (
+				23F7AA051F79A7C300A7BB8D /* SpriteKitDemo */,
+				23F7AA041F79A7C300A7BB8D /* Products */,
+				2312C7441F8FEA5B008DFC47 /* Frameworks */,
+				F9C9D5A4651667C469650997 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		23F7AA041F79A7C300A7BB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F7AA031F79A7C300A7BB8D /* fARtJacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F7AA051F79A7C300A7BB8D /* SpriteKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23480F111F9FB6F50065EB86 /* Smoke2.atlas */,
+				23480F0F1F9FB0A60065EB86 /* Smoke.atlas */,
+				23F7AA061F79A7C300A7BB8D /* AppDelegate.h */,
+				23F7AA071F79A7C300A7BB8D /* AppDelegate.m */,
+				23EC4DDB1F7ACFF700B99029 /* Config.h */,
+				23EC4DDC1F7ACFF700B99029 /* Config.m */,
+				23F7AA091F79A7C300A7BB8D /* Scene.sks */,
+				23F7AA0B1F79A7C300A7BB8D /* Scene.h */,
+				23F7AA0C1F79A7C300A7BB8D /* Scene.m */,
+				23D7938F1FA3EC5600A52659 /* MainMenuNavigationController.h */,
+				23D793901FA3EC5600A52659 /* MainMenuNavigationController.m */,
+				23D793921FA3EC6C00A52659 /* MainMenuViewController.h */,
+				23D793931FA3EC6C00A52659 /* MainMenuViewController.m */,
+				23D793721FA3E38700A52659 /* TutorialViewController.h */,
+				23D793731FA3E38700A52659 /* TutorialViewController.m */,
+				23F7AA0E1F79A7C300A7BB8D /* CameraViewController.h */,
+				23F7AA0F1F79A7C300A7BB8D /* CameraViewController.m */,
+				2362B96A1FA7748900DE3A70 /* FileUtils.h */,
+				2362B96B1FA7748900DE3A70 /* FileUtils.m */,
+				23480F0D1F9F8F730065EB86 /* Fart.mp3 */,
+				23F7AA111F79A7C300A7BB8D /* Main.storyboard */,
+				23F7AA141F79A7C300A7BB8D /* Assets.xcassets */,
+				23F7AA161F79A7C300A7BB8D /* LaunchScreen.storyboard */,
+				2378AB671FA64EEF00FCCA44 /* rubik */,
+				23F7AA191F79A7C300A7BB8D /* Info.plist */,
+				23F7AA1A1F79A7C300A7BB8D /* main.m */,
+			);
+			path = SpriteKitDemo;
+			sourceTree = "<group>";
+		};
+		F9C9D5A4651667C469650997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAED9706A1E4D9D201427FFA /* Pods-SpriteKitDemo.debug.xcconfig */,
+				8C0894714586B53E8A068C83 /* Pods-SpriteKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F7AA021F79A7C300A7BB8D /* fARtJacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7AA1E1F79A7C300A7BB8D /* Build configuration list for PBXNativeTarget "fARtJacker" */;
+			buildPhases = (
+				7A14E9E59D25964E91B4C75E /* [CP] Check Pods Manifest.lock */,
+				23F7A9FF1F79A7C300A7BB8D /* Sources */,
+				23F7AA001F79A7C300A7BB8D /* Frameworks */,
+				603535ED48B53888D5A31FE3 /* [CP] Embed Pods Frameworks */,
+				23F7AA011F79A7C300A7BB8D /* Resources */,
+				69037FF62FFD91C4AB457D4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fARtJacker;
+			productName = SpriteKitDemo;
+			productReference = 23F7AA031F79A7C300A7BB8D /* fARtJacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F7A9FB1F79A7C300A7BB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Gabe Jacobs";
+				TargetAttributes = {
+					23F7AA021F79A7C300A7BB8D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23F7A9FE1F79A7C300A7BB8D /* Build configuration list for PBXProject "fARtjacker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F7A9FA1F79A7C300A7BB8D;
+			productRefGroup = 23F7AA041F79A7C300A7BB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F7AA021F79A7C300A7BB8D /* fARtJacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F7AA011F79A7C300A7BB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7AA0A1F79A7C300A7BB8D /* Scene.sks in Resources */,
+				23480F121F9FB6F50065EB86 /* Smoke2.atlas in Resources */,
+				2378AB741FA64EEF00FCCA44 /* Rubik-BlackItalic.ttf in Resources */,
+				2378AB7D1FA64EEF00FCCA44 /* SIL Open Font License.txt in Resources */,
+				2378AB7B1FA64EEF00FCCA44 /* Rubik-MediumItalic.ttf in Resources */,
+				2378AB781FA64EEF00FCCA44 /* Rubik-Light.ttf in Resources */,
+				2378AB731FA64EEF00FCCA44 /* Rubik-Black.ttf in Resources */,
+				23480F101F9FB0A60065EB86 /* Smoke.atlas in Resources */,
+				23F7AA181F79A7C300A7BB8D /* LaunchScreen.storyboard in Resources */,
+				2378AB761FA64EEF00FCCA44 /* Rubik-BoldItalic.ttf in Resources */,
+				23F7AA151F79A7C300A7BB8D /* Assets.xcassets in Resources */,
+				2378AB7A1FA64EEF00FCCA44 /* Rubik-Medium.ttf in Resources */,
+				2378AB791FA64EEF00FCCA44 /* Rubik-LightItalic.ttf in Resources */,
+				2378AB771FA64EEF00FCCA44 /* Rubik-Italic.ttf in Resources */,
+				2378AB7C1FA64EEF00FCCA44 /* Rubik-Regular.ttf in Resources */,
+				23480F0E1F9F8F730065EB86 /* Fart.mp3 in Resources */,
+				23F7AA131F79A7C300A7BB8D /* Main.storyboard in Resources */,
+				2378AB751FA64EEF00FCCA44 /* Rubik-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		603535ED48B53888D5A31FE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpriteKitDemo/Pods-SpriteKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69037FF62FFD91C4AB457D4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpriteKitDemo/Pods-SpriteKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A14E9E59D25964E91B4C75E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F7A9FF1F79A7C300A7BB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7AA101F79A7C300A7BB8D /* CameraViewController.m in Sources */,
+				23EC4DDD1F7ACFF700B99029 /* Config.m in Sources */,
+				23D793741FA3E38700A52659 /* TutorialViewController.m in Sources */,
+				23D793911FA3EC5600A52659 /* MainMenuNavigationController.m in Sources */,
+				2362B96C1FA7748900DE3A70 /* FileUtils.m in Sources */,
+				23D793941FA3EC6C00A52659 /* MainMenuViewController.m in Sources */,
+				23F7AA0D1F79A7C300A7BB8D /* Scene.m in Sources */,
+				23F7AA1B1F79A7C300A7BB8D /* main.m in Sources */,
+				23F7AA081F79A7C300A7BB8D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23F7AA111F79A7C300A7BB8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F7AA121F79A7C300A7BB8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23F7AA161F79A7C300A7BB8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F7AA171F79A7C300A7BB8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F7AA1C1F79A7C300A7BB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23F7AA1D1F79A7C300A7BB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F7AA1F1F79A7C300A7BB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAED9706A1E4D9D201427FFA /* Pods-SpriteKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FartAppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC9XKUHSQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.24.1",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.25.0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework/Source\"",
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework\"",
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework/Source/iOS\"",
+				);
+				INFOPLIST_FILE = SpriteKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mssngpeces.fartkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+			};
+			name = Debug;
+		};
+		23F7AA201F79A7C300A7BB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0894714586B53E8A068C83 /* Pods-SpriteKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FartAppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC9XKUHSQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.24.1",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.25.0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework/Source\"",
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework\"",
+					"\"$(SRCROOT)/SpriteKitDemo/GPUImage-master/framework/Source/iOS\"",
+				);
+				INFOPLIST_FILE = SpriteKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mssngpeces.fartkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s armv6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F7A9FE1F79A7C300A7BB8D /* Build configuration list for PBXProject "fARtjacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7AA1C1F79A7C300A7BB8D /* Debug */,
+				23F7AA1D1F79A7C300A7BB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7AA1E1F79A7C300A7BB8D /* Build configuration list for PBXNativeTarget "fARtJacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7AA1F1F79A7C300A7BB8D /* Debug */,
+				23F7AA201F79A7C300A7BB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F7A9FB1F79A7C300A7BB8D /* Project object */;
+}
