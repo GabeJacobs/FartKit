@@ -25,7 +25,7 @@
 - (void)hidePlanes;
 - (void)refresh;
 
-@property (nonatomic) int currentFartIndex;
+@property (nonatomic) NSInteger currentFartIndex;
 
 @property (nonatomic, strong) NSMutableArray *texturesRight;
 @property (nonatomic, strong) NSMutableArray *texturesLeft;
@@ -46,6 +46,8 @@
 @property (nonatomic, strong) UIImageView *watermark;
 @property (nonatomic,strong) GADBannerView *bannerView;
 @property (nonatomic,strong) UIWindow *bannerWindow;
+@property (nonatomic,strong) UIButton *moreFartsButton;
+@property (nonatomic,strong) UIButton *flashButton;
 
 @property (nonatomic, strong) RPScreenRecorder *screenRecorder;
 

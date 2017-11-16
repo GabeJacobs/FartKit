@@ -128,6 +128,39 @@
 
 
 - (void)playFart {
+	
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSInteger selection = [defaults integerForKey:@"selectedFart"];
+	switch (selection) {
+		case 0: {
+			NSURL *audioPath = [[NSBundle mainBundle] URLForResource:@"Fart" withExtension:@"mp3"];
+			self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player.delegate = self;
+			
+			self.player2 = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player2.delegate = self;
+			
+			[self.player prepareToPlay];
+			[self.player2 prepareToPlay];
+		}
+			break;
+			
+		case 1: {
+			NSURL *audioPath = [[NSBundle mainBundle] URLForResource:@"Fart2" withExtension:@"mp3"];
+			self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player.delegate = self;
+			
+			self.player2 = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player2.delegate = self;
+			
+			[self.player prepareToPlay];
+			[self.player2 prepareToPlay];
+		}
+			break;
+		default:
+			break;
+	}
+	
 	if([self.player isPlaying]){
 		[self.player2 play];
 	} else{

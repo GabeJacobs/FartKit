@@ -1,12 +1,15 @@
 PODS:
+  - MBProgressHUD (1.0.0)
   - RecordScreen-iOS9- (0.1.0)
 
 DEPENDENCIES:
+  - MBProgressHUD
   - RecordScreen-iOS9- (~> 0.1.0)
 
 SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   RecordScreen-iOS9-: 73cbdf6c12f189931bbccfc6f996c1290d5c34ac
 
-PODFILE CHECKSUM: bac3012c59e09e9386d2810394e97276bbcbdec9
+PODFILE CHECKSUM: 46f7ea312010e36708d1af8085458b7f2e3cbb83
 
 COCOAPODS: 1.1.1

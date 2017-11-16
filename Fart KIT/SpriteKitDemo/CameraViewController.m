@@ -11,6 +11,7 @@
 #import "Plane.h"
 #import <AVKit/AVKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "SelectFartViewController.h"
 
 @interface CameraViewController () <ARSKViewDelegate>
 
@@ -19,8 +20,17 @@
 
 @implementation CameraViewController
 
+- (void) dealloc {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(changedSelection:)
+												 name:@"changeSelection"
+											   object:nil];
 	
 	self.currentFartIndex = 0;
 	
@@ -54,30 +64,75 @@
 	[self startJacker];
 	
 	self.watermark = [[UIImageView alloc]  initWithImage:[UIImage imageNamed:@"Watermark"]];
-	self.watermark.frame = CGRectMake(self.view.frame.size.width - self.watermark.image.size.width - 10, 20, self.watermark.image.size.width, self.watermark.image.size.height);
+	self.watermark.frame = CGRectMake(self.view.frame.size.width - (self.watermark.image.size.width * .80) - 15, 20, self.watermark.image.size.width*.80, self.watermark.image.size.height*.80);
 	[self.view addSubview:self.watermark];
 	
 	
-	GADRequest *request = [GADRequest request];
-	request.testDevices = @[@"17904f4502ce5ba33bf6e9fb824b420f"]; // Sample device ID
-	self.bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
-	self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
-	self.bannerView.rootViewController = self;
-	self.bannerView.alpha = 1.0;
-	self.bannerView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.bannerView.frame.size.height);
-	self.bannerWindow = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.height, 0)];
-	self.bannerWindow.rootViewController = self;
-	[self.bannerWindow makeKeyAndVisible];
-	[self.bannerWindow addSubview:self.bannerView];
-	self.bannerView.delegate = self;
-	[self.bannerView loadRequest:[GADRequest request]];
-	self.bannerWindow.hidden = YES;
+//	GADRequest *request = [GADRequest request];
+//	request.testDevices = @[@"17904f4502ce5ba33bf6e9fb824b420f"]; // Sample device ID
+//	self.bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
+//	self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+//	self.bannerView.rootViewController = self;
+//	self.bannerView.alpha = 1.0;
+//	self.bannerView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.bannerView.frame.size.height);
+//	self.bannerWindow = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.height, 0)];
+//	self.bannerWindow.rootViewController = self;
+//	[self.bannerWindow makeKeyAndVisible];
+//	[self.bannerWindow addSubview:self.bannerView];
+//	self.bannerView.delegate = self;
+//	[self.bannerView loadRequest:[GADRequest request]];
+//	self.bannerWindow.hidden = YES;
 
+	self.flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	self.flashButton.tag = 0;
+	self.flashButton.contentMode = UIViewContentModeCenter;
+	[self.flashButton setImage:[UIImage imageNamed:@"Flash"] forState:UIControlStateNormal];
+	self.flashButton.frame = CGRectMake(15, 15, [UIImage imageNamed:@"Flash"].size.width*.9, [UIImage imageNamed:@"Flash"].size.height*.9);
+	[self.flashButton addTarget:self action:@selector(tappedFlash) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:self.flashButton];
+	
+	self.moreFartsButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	self.moreFartsButton.tag = 0;
+	self.moreFartsButton.contentMode = UIViewContentModeCenter;
+	[self.moreFartsButton setImage:[UIImage imageNamed:@"MoreFarts"] forState:UIControlStateNormal];
+	self.moreFartsButton.frame = CGRectMake(screenWidth - self.moreFartsButton.imageView.image.size.width - 20, screenHeight - self.moreFartsButton.imageView.image.size.height - 20, self.moreFartsButton.imageView.image.size.width, self.moreFartsButton.imageView.image.size.height);
+	
+	[self.moreFartsButton addTarget:self action:@selector(tappedMoreFarts) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:self.moreFartsButton];
 }
 
+- (void)tappedMoreFarts {
+	SelectFartViewController *moreFartsVC = [[SelectFartViewController alloc] init];
+	[self.navigationController pushViewController:moreFartsVC animated:YES];
+}
+
+- (void)tappedFlash {		
+		AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+		if([device hasTorch]){
+			if(self.flashButton.tag == 0){
+				[device lockForConfiguration:nil];
+				[device setTorchMode:AVCaptureTorchModeOn];
+				self.flashButton.tag = 1;
+			} else{
+				[device lockForConfiguration:nil];
+				[device setTorchMode:AVCaptureTorchModeOff];
+				self.flashButton.tag = 0;
+			}
+			[device unlockForConfiguration];
+		} else {
+			UIAlertController * alert=[UIAlertController alertControllerWithTitle:@"Flashlight is unavailable!"
+																		  message:nil
+																   preferredStyle:UIAlertControllerStyleAlert];
+			
+			UIAlertAction*yesButton = [UIAlertAction actionWithTitle:@"Okay"
+															   style:UIAlertActionStyleDefault
+															 handler:nil];
+			
+			[alert addAction:yesButton];
+			[self presentViewController:alert animated:YES completion:nil];
+		}
+}
 - (void)setupAnimations {
-	
-	self.currentFartIndex = 1;
 	
 	self.texturesLeft = [NSMutableArray array];
 	self.texturesRight = [NSMutableArray array];
@@ -218,7 +273,7 @@
 			
 			[self.screenRecorder stopRecordingWithHandler:^(RPPreviewViewController *previewController,NSError *error){
 				[self presentViewController:previewController animated:YES completion:nil];
-				self.bannerWindow.hidden = YES;
+//				self.bannerWindow.hidden = YES;
 				previewController.previewControllerDelegate = self;
 				
 			}];
@@ -229,6 +284,10 @@
 	[UIView animateWithDuration:2.0 animations:^{
 		self.directions.alpha = 0.0;
 	}];
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+	[self.sceneView.session runWithConfiguration:self.arConfig];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -333,7 +392,7 @@
 }
 - (void)previewControllerDidFinish:(RPPreviewViewController *)previewController {
 	[self dismissViewControllerAnimated:previewController completion:^{
-		self.bannerWindow.hidden = NO;
+//		self.bannerWindow.hidden = NO;
 		[self.sceneView.session runWithConfiguration:self.arConfig];
 	}];
 }
@@ -368,5 +427,11 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
 	[UIView setAnimationDuration:.7];
 	bannerView.alpha = 0.0;
 	[UIView commitAnimations];
+}
+
+// selection
+
+- (void)changedSelection:(NSNotification *) notification {
+	self.currentFartIndex = [[notification object] integerValue];
 }
 @end

@@ -34,7 +34,7 @@
 	self.tutorial.backgroundColor =  [UIColor colorWithRed:0.21 green:0.49 blue:0.34 alpha:1.0];;
 	self.tutorial.frame = CGRectMake(0, 0, 136, 34);
 	self.tutorial.center = CGPointMake(self.view.center.x, self.view.center.y + 90);
-	self.tutorial.layer.cornerRadius = 4;
+	self.tutorial.layer.cornerRadius = 16;
 	[self.tutorial addTarget:self action:@selector(showTutorial) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:self.tutorial];
 	
@@ -49,7 +49,7 @@
 	self.begin.backgroundColor =  [UIColor colorWithRed:0.21 green:0.49 blue:0.34 alpha:1.0];;
 	self.begin.frame = CGRectMake(0, 0, 136, 34);
 	self.begin.center = CGPointMake(self.view.center.x, self.view.center.y + 140);
-	self.begin.layer.cornerRadius = 4;
+	self.begin.layer.cornerRadius = 16;
 	[self.begin addTarget:self action:@selector(showCamera) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:self.begin];
 	
@@ -77,7 +77,8 @@
 
 - (void)showCamera {
 	CameraViewController *cameraController = [[CameraViewController alloc]init];
-	[self.navigationController presentViewController:cameraController animated:YES completion:nil];
+	self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+	[self.navigationController pushViewController:cameraController animated:YES ];
 }
 
 -(BOOL)prefersStatusBarHidden {
