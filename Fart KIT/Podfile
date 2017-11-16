@@ -6,6 +6,5 @@ target 'fARtJacker' do
   # use_frameworks!
 
   pod 'RecordScreen-iOS9-', '~> 0.1.0'
-  pod 'MBProgressHUD'
 
 end

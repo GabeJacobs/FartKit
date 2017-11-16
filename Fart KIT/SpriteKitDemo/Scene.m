@@ -157,6 +157,19 @@
 			[self.player2 prepareToPlay];
 		}
 			break;
+			
+		case 2: {
+			NSURL *audioPath = [[NSBundle mainBundle] URLForResource:@"Fart3" withExtension:@"mp3"];
+			self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player.delegate = self;
+			
+			self.player2 = [[AVAudioPlayer alloc] initWithContentsOfURL:audioPath error:nil];
+			self.player2.delegate = self;
+			
+			[self.player prepareToPlay];
+			[self.player2 prepareToPlay];
+		}
+			break;
 		default:
 			break;
 	}

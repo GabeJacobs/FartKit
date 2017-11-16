@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '649D5EEEFC0414EA05B5818DDD6D1A79'
+               BlueprintIdentifier = 'D06B2F5107B4CB4194BB2F27C6728DE3'
                BlueprintName = 'RecordScreen-iOS9-'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libRecordScreen-iOS9-.a'>

@@ -7,216 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1345D57EC4DFD868C055E70E454BA173 /* Pods-fARtJacker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D875FE7D0D45F451354A38BE8BEF55A /* Pods-fARtJacker-dummy.m */; };
-		2D61B3464713355FD43E917CEAFA4541 /* RPPreviewViewController+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3258D1F54CC9D453B2D7B0F94618EBF4 /* RPPreviewViewController+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FACD7F04CA5C5FB29FA9502AC0FA6BE /* UIResponder+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = E689CB6066F6042EFDE840516D6B2C35 /* UIResponder+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CBA96C5CCC02BCC6EEB715CF12CA517 /* NKRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7133B595967EF1A9E9589DF759D35 /* NKRecordManager.m */; };
-		536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1AC8F4728059F666FA76BC56EB6367 /* MBProgressHUD.m */; };
-		7075729ABA5A581029798D830D4117D7 /* RPPreviewViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9AE6A4073F1F45B67702964E150F56 /* RPPreviewViewController+Hook.m */; };
-		7A6CA6071F62567DDA1B59F360B723A7 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA33677A37987FC19B94E7E2D53812C /* NSObject+Extension.m */; };
-		8C9B1DC3568E2881FF159096A119F748 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */; };
-		973E1C064BB52FE9AC917C030399F858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
-		A4C9DEEC35B62925733C0D44EB81B560 /* UIResponder+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E64D44907A663B4974FDB620159DAFB /* UIResponder+Log.m */; };
-		B90979DE0455738CBD74FDA47BE07BCA /* UIApplication+RecordScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DE0E01E80DE433595E241C11049323 /* UIApplication+RecordScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA5E682B018BF5756152E04FE2F23909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
-		CD0BD762519FABBC8F67F0B407C187EC /* UIApplication+RecordScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A3963D603B3E41825E77E8210CCCF /* UIApplication+RecordScreen.m */; };
-		D415D0767A8AF457434FFFB5957D4616 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */; };
-		D9CEA3C31A22D3B76E588BD615E0EF13 /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E3015DABC73779FA7FA7EED1F21D44 /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0218AF08F1F0C47032D83FD092BBB32 /* NKRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7721F8F3477A65994752449767083A3F /* NKRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1E2172260E6A598F63F7040B5E99DC5 /* RecordScreen-iOS9--dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49832194A9DF0D9D824AB3C03B0E4835 /* RecordScreen-iOS9--dummy.m */; };
-		E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70C2F5C72EC98B9029CC9AE2B2C5E7 /* MBProgressHUD-dummy.m */; };
-		EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D73669002CAE48CFA78BB13BEF16274 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9EA0821EEA1E175B3B99851705373CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
+		10DA124E0747EA655372A5CF8B66CED3 /* UIApplication+RecordScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0D6EF18844DACFC4BB8A33A704D7FC /* UIApplication+RecordScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16601F2A8451A95F27A285371FBF3A4D /* NKRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 11046F67455DF985D38EC36BDCEBF8E1 /* NKRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE72FAB7C4416ECE31510C4A33785B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		47D8EE967352638A4AB0C29A5140E0FA /* RecordScreen-iOS9--dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 909BA6BAC7A12A492E8A46F865A1F846 /* RecordScreen-iOS9--dummy.m */; };
+		59C88A20B82D6D9223BB50CD14C829FC /* UIResponder+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEF9736FBA2424F5AEDA712380DFBA0 /* UIResponder+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73622834A390BFCCE5DC58CF369F181C /* NKRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62FADC5B8F0F54BB620AAEBB8C13D2 /* NKRecordManager.m */; };
+		84B5467C20A034BED8C02CCF5D3F2FA3 /* RPPreviewViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5EA78A49644E7D3A800E6CF05B2C9F /* RPPreviewViewController+Hook.m */; };
+		8A67D3EEF959EF1244F90641B3D5820E /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 902647EF8DD9EE43EF2405446FF2A675 /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98FC15654BA3FC61477BBE7C98A75199 /* UIResponder+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A36382031D944D13844FFCF9B87A8 /* UIResponder+Log.m */; };
+		A12BC1F34F91E22EB5CA479A83168F73 /* UIApplication+RecordScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B0288322A656EF176B4C711E77552CAC /* UIApplication+RecordScreen.m */; };
+		B7DC950ECA9CEEAF14311D022FF68C48 /* Pods-fARtJacker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D875FE7D0D45F451354A38BE8BEF55A /* Pods-fARtJacker-dummy.m */; };
+		D32CBEEEABE1F5B75B51A4704A251219 /* RPPreviewViewController+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0E242D42E8CA956790905568F19F93 /* RPPreviewViewController+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF3C19FBFC881F452CD1CD6705ED242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F38D246B27922E92C703B9DAFCF4E5F1 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F82C4BA8874870D423619893F3721604 /* NSObject+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		116790CFE15479003F487924109C66B2 /* PBXContainerItemProxy */ = {
+		69B7350C691FCE5C865DC4C14DCE1496 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 860B883BFA80E40BD52D54DE76CB6AC1;
+			remoteGlobalIDString = FF5510B1B950452116B4413E2708E8D9;
 			remoteInfo = "RecordScreen-iOS9--RecordScreen-iOS9-";
 		};
-		2B5DA03943810E833B86829B58A2EBE6 /* PBXContainerItemProxy */ = {
+		9D96C8C1C3A4EF739481743B1E17AADB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 649D5EEEFC0414EA05B5818DDD6D1A79;
+			remoteGlobalIDString = D06B2F5107B4CB4194BB2F27C6728DE3;
 			remoteInfo = "RecordScreen-iOS9-";
-		};
-		7EDBBDD74D5A287E017126D97165A16D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
-			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07690BDF33CBBBA39741AE89B5D527AD /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6837A75D76EF80F829DC87E6D94FC8 /* Pods-fARtJacker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fARtJacker-frameworks.sh"; sourceTree = "<group>"; };
-		0F1AC8F4728059F666FA76BC56EB6367 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		134279C8DB25207B726CAA995972FA95 /* ResourceBundle-RecordScreen-iOS9--Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecordScreen-iOS9--Info.plist"; sourceTree = "<group>"; };
+		11046F67455DF985D38EC36BDCEBF8E1 /* NKRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKRecordManager.h; path = Pod/Classes/NKRecordManager.h; sourceTree = "<group>"; };
+		18867ED1C81F3AE8532CE582B1D133E3 /* libRecordScreen-iOS9-.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libRecordScreen-iOS9-.a"; path = "libRecordScreen-iOS9-.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0D7DDD429EA61B4B5B17CCC0CB7CF0 /* Pods-fARtJacker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fARtJacker.release.xcconfig"; sourceTree = "<group>"; };
-		1FA33677A37987FC19B94E7E2D53812C /* NSObject+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extension.m"; path = "Pod/Classes/NSObject+Extension.m"; sourceTree = "<group>"; };
-		3258D1F54CC9D453B2D7B0F94618EBF4 /* RPPreviewViewController+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RPPreviewViewController+Hook.h"; path = "Pod/Classes/RPPreviewViewController+Hook.h"; sourceTree = "<group>"; };
-		49832194A9DF0D9D824AB3C03B0E4835 /* RecordScreen-iOS9--dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecordScreen-iOS9--dummy.m"; sourceTree = "<group>"; };
+		1F62FADC5B8F0F54BB620AAEBB8C13D2 /* NKRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKRecordManager.m; path = Pod/Classes/NKRecordManager.m; sourceTree = "<group>"; };
+		3EEF9736FBA2424F5AEDA712380DFBA0 /* UIResponder+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Log.h"; path = "Pod/Classes/UIResponder+Log.h"; sourceTree = "<group>"; };
 		4B4D562AAEBD3ADDB52366455FCFF978 /* Pods-fARtJacker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fARtJacker-resources.sh"; sourceTree = "<group>"; };
-		4E64D44907A663B4974FDB620159DAFB /* UIResponder+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Log.m"; path = "Pod/Classes/UIResponder+Log.m"; sourceTree = "<group>"; };
-		60E3015DABC73779FA7FA7EED1F21D44 /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "Pod/Classes/NSObject+Extension.h"; sourceTree = "<group>"; };
-		63A7133B595967EF1A9E9589DF759D35 /* NKRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NKRecordManager.m; path = Pod/Classes/NKRecordManager.m; sourceTree = "<group>"; };
-		7721F8F3477A65994752449767083A3F /* NKRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NKRecordManager.h; path = Pod/Classes/NKRecordManager.h; sourceTree = "<group>"; };
-		7D73669002CAE48CFA78BB13BEF16274 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8A60ACF5357D8A227E02984C3981DF84 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecordScreen-iOS9-.xcconfig"; sourceTree = "<group>"; };
+		5DF98FB0510DC2A532C6945322F761E8 /* RecordScreen-iOS9--prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordScreen-iOS9--prefix.pch"; sourceTree = "<group>"; };
+		847A36382031D944D13844FFCF9B87A8 /* UIResponder+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Log.m"; path = "Pod/Classes/UIResponder+Log.m"; sourceTree = "<group>"; };
 		8D875FE7D0D45F451354A38BE8BEF55A /* Pods-fARtJacker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fARtJacker-dummy.m"; sourceTree = "<group>"; };
+		902647EF8DD9EE43EF2405446FF2A675 /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "Pod/Classes/NSObject+Extension.h"; sourceTree = "<group>"; };
+		909BA6BAC7A12A492E8A46F865A1F846 /* RecordScreen-iOS9--dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecordScreen-iOS9--dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96E254C11665CD5C2C4E2F2EE1E119D9 /* RecordScreen-iOS9-.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RecordScreen-iOS9-.bundle"; path = "RecordScreen-iOS9-.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B70C2F5C72EC98B9029CC9AE2B2C5E7 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		A3DE0E01E80DE433595E241C11049323 /* UIApplication+RecordScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RecordScreen.h"; path = "Pod/Classes/UIApplication+RecordScreen.h"; sourceTree = "<group>"; };
-		AD499AB59F2CFCB0EE7F6FAF36D125D5 /* libRecordScreen-iOS9-.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libRecordScreen-iOS9-.a"; path = "libRecordScreen-iOS9-.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9AE6A4073F1F45B67702964E150F56 /* RPPreviewViewController+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RPPreviewViewController+Hook.m"; path = "Pod/Classes/RPPreviewViewController+Hook.m"; sourceTree = "<group>"; };
-		CDF99DC5FFB0D2F1D3417ED6F3EA1C5C /* libPods-fARtJacker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-fARtJacker.a"; path = "libPods-fARtJacker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FA59890786998087A2E62AAC31E9F3 /* libPods-fARtJacker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-fARtJacker.a"; path = "libPods-fARtJacker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8B40E44F69A434D9D35702303DDE4A /* ResourceBundle-RecordScreen-iOS9--Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecordScreen-iOS9--Info.plist"; sourceTree = "<group>"; };
+		B0288322A656EF176B4C711E77552CAC /* UIApplication+RecordScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RecordScreen.m"; path = "Pod/Classes/UIApplication+RecordScreen.m"; sourceTree = "<group>"; };
+		BB0D6EF18844DACFC4BB8A33A704D7FC /* UIApplication+RecordScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RecordScreen.h"; path = "Pod/Classes/UIApplication+RecordScreen.h"; sourceTree = "<group>"; };
+		CB83E097BEA579F311A4DF2075BDAB08 /* RecordScreen-iOS9-.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RecordScreen-iOS9-.bundle"; path = "RecordScreen-iOS9-.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CED22BC1F2A17588D4ED9638D02B87ED /* Pods-fARtJacker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fARtJacker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFA848CEBCBA28A901BDFC913387F3A4 /* RecordScreen-iOS9--prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordScreen-iOS9--prefix.pch"; sourceTree = "<group>"; };
-		E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecordScreen-iOS9-.xcconfig"; sourceTree = "<group>"; };
-		E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		E689CB6066F6042EFDE840516D6B2C35 /* UIResponder+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Log.h"; path = "Pod/Classes/UIResponder+Log.h"; sourceTree = "<group>"; };
-		EB8A3963D603B3E41825E77E8210CCCF /* UIApplication+RecordScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RecordScreen.m"; path = "Pod/Classes/UIApplication+RecordScreen.m"; sourceTree = "<group>"; };
+		EB5EA78A49644E7D3A800E6CF05B2C9F /* RPPreviewViewController+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RPPreviewViewController+Hook.m"; path = "Pod/Classes/RPPreviewViewController+Hook.m"; sourceTree = "<group>"; };
 		EBB7FE32618F6DF41207BA5E438933AC /* Pods-fARtJacker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fARtJacker-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED0E242D42E8CA956790905568F19F93 /* RPPreviewViewController+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RPPreviewViewController+Hook.h"; path = "Pod/Classes/RPPreviewViewController+Hook.h"; sourceTree = "<group>"; };
 		EE3436CC9BD749D9F2DBC1C0D92367BA /* Pods-fARtJacker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fARtJacker.debug.xcconfig"; sourceTree = "<group>"; };
-		F002336F2DE30F7622E198A450BA3C61 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		F82C4BA8874870D423619893F3721604 /* NSObject+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extension.m"; path = "Pod/Classes/NSObject+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DA4229737EC2616CE66FF0FF898ACF7 /* Frameworks */ = {
+		207DADAF61F02B19F34D68F04BC20C6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9EA0821EEA1E175B3B99851705373CB /* Foundation.framework in Frameworks */,
+				3EE72FAB7C4416ECE31510C4A33785B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42D1EFB6C67DDF0447F98C30DC8CACAA /* Frameworks */ = {
+		7E7226AD1E5393D64DA4161BB5EB2217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF3C19FBFC881F452CD1CD6705ED242 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4442065DF49EB2E7892C6EF5F50CD699 /* Frameworks */ = {
+		E592669579725367974F112E1BBDA934 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973E1C064BB52FE9AC917C030399F858 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C9B1DC3568E2881FF159096A119F748 /* CoreGraphics.framework in Frameworks */,
-				CA5E682B018BF5756152E04FE2F23909 /* Foundation.framework in Frameworks */,
-				D415D0767A8AF457434FFFB5957D4616 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E029D9AAED7679617632303F2A4C409B /* iOS */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		21667825F549F6C4DD85E01368939463 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				07690BDF33CBBBA39741AE89B5D527AD /* libMBProgressHUD.a */,
-				CDF99DC5FFB0D2F1D3417ED6F3EA1C5C /* libPods-fARtJacker.a */,
-				AD499AB59F2CFCB0EE7F6FAF36D125D5 /* libRecordScreen-iOS9-.a */,
-				96E254C11665CD5C2C4E2F2EE1E119D9 /* RecordScreen-iOS9-.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EE7FEE19FFDA2438E9A7591555E4E50 /* RecordScreen-iOS9- */ = {
-			isa = PBXGroup;
-			children = (
-				7721F8F3477A65994752449767083A3F /* NKRecordManager.h */,
-				63A7133B595967EF1A9E9589DF759D35 /* NKRecordManager.m */,
-				60E3015DABC73779FA7FA7EED1F21D44 /* NSObject+Extension.h */,
-				1FA33677A37987FC19B94E7E2D53812C /* NSObject+Extension.m */,
-				3258D1F54CC9D453B2D7B0F94618EBF4 /* RPPreviewViewController+Hook.h */,
-				BA9AE6A4073F1F45B67702964E150F56 /* RPPreviewViewController+Hook.m */,
-				A3DE0E01E80DE433595E241C11049323 /* UIApplication+RecordScreen.h */,
-				EB8A3963D603B3E41825E77E8210CCCF /* UIApplication+RecordScreen.m */,
-				E689CB6066F6042EFDE840516D6B2C35 /* UIResponder+Log.h */,
-				4E64D44907A663B4974FDB620159DAFB /* UIResponder+Log.m */,
-				4E5985C062A4FB16B9A4DB96C3CF071B /* Support Files */,
-			);
-			name = "RecordScreen-iOS9-";
-			path = "RecordScreen-iOS9-";
-			sourceTree = "<group>";
-		};
-		4E5985C062A4FB16B9A4DB96C3CF071B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */,
-				49832194A9DF0D9D824AB3C03B0E4835 /* RecordScreen-iOS9--dummy.m */,
-				DFA848CEBCBA28A901BDFC913387F3A4 /* RecordScreen-iOS9--prefix.pch */,
-				134279C8DB25207B726CAA995972FA95 /* ResourceBundle-RecordScreen-iOS9--Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RecordScreen-iOS9-";
-			sourceTree = "<group>";
-		};
-		6521ACCA31E02273C1C40BF1CF57DFCE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F002336F2DE30F7622E198A450BA3C61 /* MBProgressHUD.xcconfig */,
-				9B70C2F5C72EC98B9029CC9AE2B2C5E7 /* MBProgressHUD-dummy.m */,
-				8A60ACF5357D8A227E02984C3981DF84 /* MBProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
-		6868713EEF8ADA90845F7AE2628DF9D9 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				7D73669002CAE48CFA78BB13BEF16274 /* MBProgressHUD.h */,
-				0F1AC8F4728059F666FA76BC56EB6367 /* MBProgressHUD.m */,
-				6521ACCA31E02273C1C40BF1CF57DFCE /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				A41998DDE3169A81F6E522A066602746 /* Pods */,
-				21667825F549F6C4DD85E01368939463 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8575AAACCF26B6305A61214C0BAF852F /* Pods */,
+				B8D91FD2D4C9FFD452EA60D0379F89D8 /* Products */,
 				BC4A2BEFFE33F2B52A7F3E79569ED6E4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A41998DDE3169A81F6E522A066602746 /* Pods */ = {
+		8575AAACCF26B6305A61214C0BAF852F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6868713EEF8ADA90845F7AE2628DF9D9 /* MBProgressHUD */,
-				3EE7FEE19FFDA2438E9A7591555E4E50 /* RecordScreen-iOS9- */,
+				EB38173019B76CB152A294F47A8F5731 /* RecordScreen-iOS9- */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8D91FD2D4C9FFD452EA60D0379F89D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA59890786998087A2E62AAC31E9F3 /* libPods-fARtJacker.a */,
+				18867ED1C81F3AE8532CE582B1D133E3 /* libRecordScreen-iOS9-.a */,
+				CB83E097BEA579F311A4DF2075BDAB08 /* RecordScreen-iOS9-.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC4A2BEFFE33F2B52A7F3E79569ED6E4 /* Targets Support Files */ = {
@@ -242,102 +164,97 @@
 			path = "Target Support Files/Pods-fARtJacker";
 			sourceTree = "<group>";
 		};
-		E029D9AAED7679617632303F2A4C409B /* iOS */ = {
+		EB38173019B76CB152A294F47A8F5731 /* RecordScreen-iOS9- */ = {
 			isa = PBXGroup;
 			children = (
-				E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */,
-				82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */,
-				E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */,
+				11046F67455DF985D38EC36BDCEBF8E1 /* NKRecordManager.h */,
+				1F62FADC5B8F0F54BB620AAEBB8C13D2 /* NKRecordManager.m */,
+				902647EF8DD9EE43EF2405446FF2A675 /* NSObject+Extension.h */,
+				F82C4BA8874870D423619893F3721604 /* NSObject+Extension.m */,
+				ED0E242D42E8CA956790905568F19F93 /* RPPreviewViewController+Hook.h */,
+				EB5EA78A49644E7D3A800E6CF05B2C9F /* RPPreviewViewController+Hook.m */,
+				BB0D6EF18844DACFC4BB8A33A704D7FC /* UIApplication+RecordScreen.h */,
+				B0288322A656EF176B4C711E77552CAC /* UIApplication+RecordScreen.m */,
+				3EEF9736FBA2424F5AEDA712380DFBA0 /* UIResponder+Log.h */,
+				847A36382031D944D13844FFCF9B87A8 /* UIResponder+Log.m */,
+				ECA43FB83611B78249C830330DD5FCD6 /* Support Files */,
 			);
-			name = iOS;
+			name = "RecordScreen-iOS9-";
+			path = "RecordScreen-iOS9-";
+			sourceTree = "<group>";
+		};
+		ECA43FB83611B78249C830330DD5FCD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */,
+				909BA6BAC7A12A492E8A46F865A1F846 /* RecordScreen-iOS9--dummy.m */,
+				5DF98FB0510DC2A532C6945322F761E8 /* RecordScreen-iOS9--prefix.pch */,
+				AA8B40E44F69A434D9D35702303DDE4A /* ResourceBundle-RecordScreen-iOS9--Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RecordScreen-iOS9-";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */ = {
+		052C85C529EC423670CE59E4E72BE782 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF77F30CF9FAD7E3FB4F3C5D0E66145E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0218AF08F1F0C47032D83FD092BBB32 /* NKRecordManager.h in Headers */,
-				D9CEA3C31A22D3B76E588BD615E0EF13 /* NSObject+Extension.h in Headers */,
-				2D61B3464713355FD43E917CEAFA4541 /* RPPreviewViewController+Hook.h in Headers */,
-				B90979DE0455738CBD74FDA47BE07BCA /* UIApplication+RecordScreen.h in Headers */,
-				2FACD7F04CA5C5FB29FA9502AC0FA6BE /* UIResponder+Log.h in Headers */,
+				16601F2A8451A95F27A285371FBF3A4D /* NKRecordManager.h in Headers */,
+				8A67D3EEF959EF1244F90641B3D5820E /* NSObject+Extension.h in Headers */,
+				D32CBEEEABE1F5B75B51A4704A251219 /* RPPreviewViewController+Hook.h in Headers */,
+				10DA124E0747EA655372A5CF8B66CED3 /* UIApplication+RecordScreen.h in Headers */,
+				59C88A20B82D6D9223BB50CD14C829FC /* UIResponder+Log.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15684C3CFF1F9E7CAFE1B341657B6097 /* Pods-fARtJacker */ = {
+		78854D654B60A45311CD228E516485CC /* Pods-fARtJacker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C62EB1BCD6412F429790C4B68C02F7C2 /* Build configuration list for PBXNativeTarget "Pods-fARtJacker" */;
+			buildConfigurationList = D842B0E32E1C1B5282FEDA5D44E95DB5 /* Build configuration list for PBXNativeTarget "Pods-fARtJacker" */;
 			buildPhases = (
-				DC25806C2A54781CC20AF0A1720490EE /* Sources */,
-				3DA4229737EC2616CE66FF0FF898ACF7 /* Frameworks */,
+				7A6D4652D597E919635799C9E9132736 /* Sources */,
+				207DADAF61F02B19F34D68F04BC20C6B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1EAB9A8394565C0E83C30B01AB49A84 /* PBXTargetDependency */,
-				411C52586F33E1B6581B2FDB919E9C31 /* PBXTargetDependency */,
+				C3AC693C18197E65510BAC8B471EBD7A /* PBXTargetDependency */,
 			);
 			name = "Pods-fARtJacker";
 			productName = "Pods-fARtJacker";
-			productReference = CDF99DC5FFB0D2F1D3417ED6F3EA1C5C /* libPods-fARtJacker.a */;
+			productReference = A3FA59890786998087A2E62AAC31E9F3 /* libPods-fARtJacker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */ = {
+		D06B2F5107B4CB4194BB2F27C6728DE3 /* RecordScreen-iOS9- */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 27DBFF442F65614B18B6C35AA591DDE4 /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9-" */;
 			buildPhases = (
-				7E4305B404C5BA5156646C69578ADD62 /* Sources */,
-				F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */,
-				1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */,
+				D3D8418EA510DDFF4C41BDC2CCBFA0A6 /* Sources */,
+				7E7226AD1E5393D64DA4161BB5EB2217 /* Frameworks */,
+				052C85C529EC423670CE59E4E72BE782 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = MBProgressHUD;
-			productName = MBProgressHUD;
-			productReference = 07690BDF33CBBBA39741AE89B5D527AD /* libMBProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		649D5EEEFC0414EA05B5818DDD6D1A79 /* RecordScreen-iOS9- */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 516806A3740F17FA823ED9405A91822A /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9-" */;
-			buildPhases = (
-				52D5189C0FE2EBEA3C3B58F1ECC2A113 /* Sources */,
-				4442065DF49EB2E7892C6EF5F50CD699 /* Frameworks */,
-				FF77F30CF9FAD7E3FB4F3C5D0E66145E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA398DFAF9DA7B940F277796384BEC5 /* PBXTargetDependency */,
+				AA3C8938B0491F113AE182091055B70F /* PBXTargetDependency */,
 			);
 			name = "RecordScreen-iOS9-";
 			productName = "RecordScreen-iOS9-";
-			productReference = AD499AB59F2CFCB0EE7F6FAF36D125D5 /* libRecordScreen-iOS9-.a */;
+			productReference = 18867ED1C81F3AE8532CE582B1D133E3 /* libRecordScreen-iOS9-.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		860B883BFA80E40BD52D54DE76CB6AC1 /* RecordScreen-iOS9--RecordScreen-iOS9- */ = {
+		FF5510B1B950452116B4413E2708E8D9 /* RecordScreen-iOS9--RecordScreen-iOS9- */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72D87DB4585EE8D20B372F68377CD376 /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9--RecordScreen-iOS9-" */;
+			buildConfigurationList = 313B2DD7DA8F0A57FAAF103EFA12552F /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9--RecordScreen-iOS9-" */;
 			buildPhases = (
-				9F6EFE55C4CB0F864A0AB3FADFEA23FE /* Sources */,
-				42D1EFB6C67DDF0447F98C30DC8CACAA /* Frameworks */,
-				C0511B7EE97BE59FCE5E500AAAC3B350 /* Resources */,
+				0C96D0A03BB46AAE39478394F058B8E9 /* Sources */,
+				E592669579725367974F112E1BBDA934 /* Frameworks */,
+				080C71934E280BD354EBB56DFCAA0038 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -345,7 +262,7 @@
 			);
 			name = "RecordScreen-iOS9--RecordScreen-iOS9-";
 			productName = "RecordScreen-iOS9--RecordScreen-iOS9-";
-			productReference = 96E254C11665CD5C2C4E2F2EE1E119D9 /* RecordScreen-iOS9-.bundle */;
+			productReference = CB83E097BEA579F311A4DF2075BDAB08 /* RecordScreen-iOS9-.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -365,20 +282,19 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 21667825F549F6C4DD85E01368939463 /* Products */;
+			productRefGroup = B8D91FD2D4C9FFD452EA60D0379F89D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */,
-				15684C3CFF1F9E7CAFE1B341657B6097 /* Pods-fARtJacker */,
-				649D5EEEFC0414EA05B5818DDD6D1A79 /* RecordScreen-iOS9- */,
-				860B883BFA80E40BD52D54DE76CB6AC1 /* RecordScreen-iOS9--RecordScreen-iOS9- */,
+				78854D654B60A45311CD228E516485CC /* Pods-fARtJacker */,
+				D06B2F5107B4CB4194BB2F27C6728DE3 /* RecordScreen-iOS9- */,
+				FF5510B1B950452116B4413E2708E8D9 /* RecordScreen-iOS9--RecordScreen-iOS9- */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C0511B7EE97BE59FCE5E500AAAC3B350 /* Resources */ = {
+		080C71934E280BD354EBB56DFCAA0038 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,70 +304,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52D5189C0FE2EBEA3C3B58F1ECC2A113 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CBA96C5CCC02BCC6EEB715CF12CA517 /* NKRecordManager.m in Sources */,
-				7A6CA6071F62567DDA1B59F360B723A7 /* NSObject+Extension.m in Sources */,
-				E1E2172260E6A598F63F7040B5E99DC5 /* RecordScreen-iOS9--dummy.m in Sources */,
-				7075729ABA5A581029798D830D4117D7 /* RPPreviewViewController+Hook.m in Sources */,
-				CD0BD762519FABBC8F67F0B407C187EC /* UIApplication+RecordScreen.m in Sources */,
-				A4C9DEEC35B62925733C0D44EB81B560 /* UIResponder+Log.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E4305B404C5BA5156646C69578ADD62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */,
-				536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F6EFE55C4CB0F864A0AB3FADFEA23FE /* Sources */ = {
+		0C96D0A03BB46AAE39478394F058B8E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC25806C2A54781CC20AF0A1720490EE /* Sources */ = {
+		7A6D4652D597E919635799C9E9132736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1345D57EC4DFD868C055E70E454BA173 /* Pods-fARtJacker-dummy.m in Sources */,
+				B7DC950ECA9CEEAF14311D022FF68C48 /* Pods-fARtJacker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D8418EA510DDFF4C41BDC2CCBFA0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73622834A390BFCCE5DC58CF369F181C /* NKRecordManager.m in Sources */,
+				F38D246B27922E92C703B9DAFCF4E5F1 /* NSObject+Extension.m in Sources */,
+				47D8EE967352638A4AB0C29A5140E0FA /* RecordScreen-iOS9--dummy.m in Sources */,
+				84B5467C20A034BED8C02CCF5D3F2FA3 /* RPPreviewViewController+Hook.m in Sources */,
+				A12BC1F34F91E22EB5CA479A83168F73 /* UIApplication+RecordScreen.m in Sources */,
+				98FC15654BA3FC61477BBE7C98A75199 /* UIResponder+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		411C52586F33E1B6581B2FDB919E9C31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RecordScreen-iOS9-";
-			target = 649D5EEEFC0414EA05B5818DDD6D1A79 /* RecordScreen-iOS9- */;
-			targetProxy = 2B5DA03943810E833B86829B58A2EBE6 /* PBXContainerItemProxy */;
-		};
-		DEA398DFAF9DA7B940F277796384BEC5 /* PBXTargetDependency */ = {
+		AA3C8938B0491F113AE182091055B70F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RecordScreen-iOS9--RecordScreen-iOS9-";
-			target = 860B883BFA80E40BD52D54DE76CB6AC1 /* RecordScreen-iOS9--RecordScreen-iOS9- */;
-			targetProxy = 116790CFE15479003F487924109C66B2 /* PBXContainerItemProxy */;
+			target = FF5510B1B950452116B4413E2708E8D9 /* RecordScreen-iOS9--RecordScreen-iOS9- */;
+			targetProxy = 69B7350C691FCE5C865DC4C14DCE1496 /* PBXContainerItemProxy */;
 		};
-		F1EAB9A8394565C0E83C30B01AB49A84 /* PBXTargetDependency */ = {
+		C3AC693C18197E65510BAC8B471EBD7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
-			targetProxy = 7EDBBDD74D5A287E017126D97165A16D /* PBXContainerItemProxy */;
+			name = "RecordScreen-iOS9-";
+			target = D06B2F5107B4CB4194BB2F27C6728DE3 /* RecordScreen-iOS9- */;
+			targetProxy = 9D96C8C1C3A4EF739481743B1E17AADB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0226A19BAD2F9E5D4EE3600C30815AC6 /* Debug */ = {
+		3A952DA8DF814B9CAC2E1265602180A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */;
+			baseConfigurationReference = 53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecordScreen-iOS9-";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RecordScreen-iOS9-/ResourceBundle-RecordScreen-iOS9--Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "RecordScreen-iOS9-";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6BE4F5D561511A829800A9496C8CCBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecordScreen-iOS9-";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RecordScreen-iOS9-/ResourceBundle-RecordScreen-iOS9--Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "RecordScreen-iOS9-";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		746F38C942C2D6DFB9B345DA6BB5F520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -471,132 +406,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F002336F2DE30F7622E198A450BA3C61 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		55201F13A6A9773E79A1EECEEFC9D6D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0D7DDD429EA61B4B5B17CCC0CB7CF0 /* Pods-fARtJacker.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		649BC9B831BFAB139055193A8F44BD7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecordScreen-iOS9-";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RecordScreen-iOS9-/ResourceBundle-RecordScreen-iOS9--Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "RecordScreen-iOS9-";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		79CE326401214B79432C3FD2CE3C0046 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecordScreen-iOS9-";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RecordScreen-iOS9-/ResourceBundle-RecordScreen-iOS9--Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "RecordScreen-iOS9-";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7C243E1E704DEBDFBC5696D4DAC812B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE3436CC9BD749D9F2DBC1C0D92367BA /* Pods-fARtJacker.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		81D27BBFE39221A11085CC94C71E9978 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F002336F2DE30F7622E198A450BA3C61 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		9C7A5EE6DE2C3784BAA89D1A5D5EB30D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -635,6 +444,29 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFBDA97A1B79AD3DF53C45A15D372BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0D7DDD429EA61B4B5B17CCC0CB7CF0 /* Pods-fARtJacker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -682,9 +514,32 @@
 			};
 			name = Debug;
 		};
-		E9A927D7FD5E0ADB5655952E3C20FFED /* Release */ = {
+		D157A2F9B96489B9C628EB67FF770F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C946656FF7944163C85F6E4E853DB9 /* RecordScreen-iOS9-.xcconfig */;
+			baseConfigurationReference = EE3436CC9BD749D9F2DBC1C0D92367BA /* Pods-fARtJacker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E33F2B3559D70C0D61749A81E7315FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53257B2A500D535A1F5E5C9BAE0FF656 /* RecordScreen-iOS9-.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,6 +563,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		27DBFF442F65614B18B6C35AA591DDE4 /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746F38C942C2D6DFB9B345DA6BB5F520 /* Debug */,
+				E33F2B3559D70C0D61749A81E7315FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -717,38 +581,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516806A3740F17FA823ED9405A91822A /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9-" */ = {
+		313B2DD7DA8F0A57FAAF103EFA12552F /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9--RecordScreen-iOS9-" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0226A19BAD2F9E5D4EE3600C30815AC6 /* Debug */,
-				E9A927D7FD5E0ADB5655952E3C20FFED /* Release */,
+				6BE4F5D561511A829800A9496C8CCBC0 /* Debug */,
+				3A952DA8DF814B9CAC2E1265602180A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		D842B0E32E1C1B5282FEDA5D44E95DB5 /* Build configuration list for PBXNativeTarget "Pods-fARtJacker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */,
-				81D27BBFE39221A11085CC94C71E9978 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		72D87DB4585EE8D20B372F68377CD376 /* Build configuration list for PBXNativeTarget "RecordScreen-iOS9--RecordScreen-iOS9-" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79CE326401214B79432C3FD2CE3C0046 /* Debug */,
-				649BC9B831BFAB139055193A8F44BD7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C62EB1BCD6412F429790C4B68C02F7C2 /* Build configuration list for PBXNativeTarget "Pods-fARtJacker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C243E1E704DEBDFBC5696D4DAC812B5 /* Debug */,
-				55201F13A6A9773E79A1EECEEFC9D6D7 /* Release */,
+				D157A2F9B96489B9C628EB67FF770F2C /* Debug */,
+				BFBDA97A1B79AD3DF53C45A15D372BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

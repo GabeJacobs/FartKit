@@ -74,6 +74,10 @@
 	[self.button1 addTarget:self action:@selector(tappedSelection:) forControlEvents:UIControlEventTouchUpInside];
 	[self.button1Wrapper addSubview:self.button1];
 	
+	UIImageView *smoke = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Smoke"]];
+	smoke.frame = self.button1.frame;
+	[self.button1Wrapper addSubview:smoke];
+	
 	self.button2 = [UIButton buttonWithType:UIButtonTypeCustom];
 	self.button2.frame = CGRectMake(18, 0, self.button2Wrapper.frame.size.width - 36, self.button2Wrapper.frame.size.width - 36);
 	self.button2.backgroundColor = [UIColor colorWithRed:0.25 green:0.60 blue:0.42 alpha:1.0];
@@ -198,7 +202,7 @@
 
 	[self updateUIForSelection];
 	
-	[MBProgressHUD showHUDAddedTo:self.view animated:YES];
+//	[MBProgressHUD showHUDAddedTo:self.view animated:YES];
 	[self fetchAvailableProducts];
 
 }

@@ -32,7 +32,9 @@
 												 name:@"changeSelection"
 											   object:nil];
 	
-	self.currentFartIndex = 0;
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSInteger selection = [defaults integerForKey:@"selectedFart"];
+	self.currentFartIndex = selection;
 	
 	self.sceneView = [[ARSKView alloc] initWithFrame:self.view.frame];
 	[self.view addSubview:self.sceneView];
@@ -202,6 +204,38 @@
 
 	[self.texturesLeft addObject:textureArrayLeft];
 	
+	textureArrayRight = [NSMutableArray array];
+	numImagesRight = 132;
+	for (int i=0; i <= (numImagesRight); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"bombR00%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"bombR0%d", i];
+		} else if(i>=100 && i<1000){
+			textureName = [NSString stringWithFormat:@"bombR%d", i];
+		}
+		[textureArrayRight addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+	[self.texturesRight addObject:textureArrayRight];
+	
+	
+	textureArrayLeft = [NSMutableArray array];
+	numImagesLeft = 132;
+	for (int i=0; i <= (numImagesLeft); i++) {
+		NSString *textureName;
+		if(i>=0 && i<10){
+			textureName = [NSString stringWithFormat:@"bombL00%d", i];
+		} else if(i>=10 && i<100){
+			textureName = [NSString stringWithFormat:@"bombL0%d", i];
+		} else if(i>=100 && i<1000){
+			textureName = [NSString stringWithFormat:@"bombL%d", i];
+		}
+		[textureArrayLeft addObject:[SKTexture textureWithImageNamed:textureName]];
+	}
+	
+	[self.texturesLeft addObject:textureArrayLeft];
+	
 	// 3 squeaker
 	
 }
@@ -313,6 +347,7 @@
 #pragma mark - ARSKViewDelegate
 
 - (SKNode *)view:(ARSKView *)view nodeForAnchor:(ARAnchor *)anchor {
+	
     // Create and configure a node for the anchor added to the view's session.
 	[self.videoNodeRight removeFromParent];
 	[self.videoNodeLeft removeFromParent];

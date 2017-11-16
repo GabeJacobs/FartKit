@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '15684C3CFF1F9E7CAFE1B341657B6097'
+               BlueprintIdentifier = '78854D654B60A45311CD228E516485CC'
                BlueprintName = 'Pods-fARtJacker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-fARtJacker.a'>
