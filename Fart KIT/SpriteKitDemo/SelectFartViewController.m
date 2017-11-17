@@ -75,7 +75,7 @@
 	[self.button1Wrapper addSubview:self.button1];
 	
 	UIImageView *smoke = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Smoke"]];
-	smoke.frame = self.button1.frame;
+	smoke.center = self.button1.center;
 	[self.button1Wrapper addSubview:smoke];
 	
 	self.button2 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -91,6 +91,11 @@
 	self.button3.layer.cornerRadius = 16;
 	[self.button3 addTarget:self action:@selector(tappedSelection:) forControlEvents:UIControlEventTouchUpInside];
 	[self.button3Wrapper addSubview:self.button3];
+	
+	UIImageView *bomb = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Bomb"]];
+	bomb.center = self.button3.center;
+	[self.button3Wrapper addSubview:bomb];
+	
 	
 	self.button4 = [UIButton buttonWithType:UIButtonTypeCustom];
 	self.button4.frame = CGRectMake(18, 0, self.button4Wrapper.frame.size.width - 36, self.button4Wrapper.frame.size.width - 36);
@@ -203,7 +208,7 @@
 	[self updateUIForSelection];
 	
 //	[MBProgressHUD showHUDAddedTo:self.view animated:YES];
-	[self fetchAvailableProducts];
+//	[self fetchAvailableProducts];
 
 }
 
